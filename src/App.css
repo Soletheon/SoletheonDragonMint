@@ -1,9 +1,27 @@
-#root {
+body {
+  width: 100vw;
+  height: 100vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-image: url('https://unicorn-cdn.b-cdn.net/0c6ee87d-e25b-43e9-b966-bb32d52be8dc/');
+}
+
+#mintView {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eggView {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .eggsImg {
-  width: 15%;
+  width: 7.6rem;
+  margin-bottom: 0.5rem;
 }
